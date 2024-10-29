@@ -5,7 +5,7 @@ import pywt
 import matplotlib.pyplot as plt
 
 # Read the ECG signal
-f_s, ecg = wav.read('C:/Users/I T world/Downloads/Biomedical-Signal-Processing-Project-master/Biomedical-Signal-Processing-Project-master/119e00m.wav')
+f_s, ecg = wav.read('119e00m.wav')
 N = len(ecg)
 ti = np.arange(0, N) / f_s  # time period
 
